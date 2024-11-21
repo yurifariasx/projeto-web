@@ -14,7 +14,11 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage: {
+                'custom-bg': "url('/images/background pokemon.avif')"
+              },
         },
     },
+    
     plugins: [],
 };
